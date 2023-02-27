@@ -21,7 +21,16 @@ export default function Rodape() {
           <AiFillLinkedin className="icon-sm" />
         </a>
       </div>
-      <p>Desenvolvido por <a href="https://www.linkedin.com/in/jorge-alexandre-de-aquino/" target="_blank"> Jorge Alexandre</a></p>
+      <p>
+        Desenvolvido por 
+        <a 
+          href="https://www.linkedin.com/in/jorge-alexandre-de-aquino/" 
+          target="_blank" 
+          rel="noreferrer"
+        >
+          Jorge Alexandre
+        </a>
+        </p>
     </footer>
   );
 }
