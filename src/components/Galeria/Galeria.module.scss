@@ -1,7 +1,6 @@
 @import "../../styles/variaveis";
 
 .galeria {
-  font-family: $fonte-normal;
   margin-bottom: 2rem;
 
   h2 {
@@ -71,6 +70,6 @@
     padding: 0 16px;
     font-size: 1.25rem;
     color: $cor-do-texto;
-    font-family: $fonte-bold;
+    font-weight: bold;
   }
 }
