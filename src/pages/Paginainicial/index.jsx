@@ -2,8 +2,8 @@ import Cabecalho from "../../components/Cabecalho";
 import Galeria from "../../components/Galeria";
 import Menu from "../../components/Menu";
 import Rodape from "../../components/Rodape";
-import banner from './banner.png';
-import styles from './PaginaInicial.module.scss';
+import banner from "./banner.png";
+import styles from "./PaginaInicial.module.scss";
 
 export default function App() {
   return (
@@ -17,10 +17,10 @@ export default function App() {
             <img src={banner} alt="Banner da terra vista do espaco" />
           </div>
         </section>
+        <div className={styles.galeria}>
+          <Galeria />
+        </div>
       </main>
-      <div>
-        <Galeria />
-      </div>
       <Rodape />
     </>
   );
