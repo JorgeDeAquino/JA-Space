@@ -1,0 +1,47 @@
+@import "../../styles/variaveis";
+
+.rodape {
+  background-color: $azul-rodape;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  box-shadow: 0px -2px 30px rgba($color: #000000, $alpha: 0.5);
+  box-sizing: border-box;
+
+  &__icones {
+    width: 5%;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+    a {
+      text-decoration: none;
+      color: $cor-do-texto;
+      svg {
+        font-size: 2rem;
+
+        &:hover {
+          color: $azul-claro;
+          background-color: $cor-do-texto;
+        }
+      }
+    }
+  }
+  
+  p {
+    margin: 0;
+    color: $cor-do-texto;
+    font-weight: 500;
+    a {
+      color: $cinza-claro;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+  }
+}

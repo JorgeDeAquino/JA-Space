@@ -1,6 +1,7 @@
 import Cabecalho from "../../components/Cabecalho";
 import Galeria from "../../components/Galeria";
 import Menu from "../../components/Menu";
+import Rodape from "../../components/Rodape";
 import banner from './banner.png';
 import styles from './PaginaInicial.module.scss';
 
@@ -20,6 +21,7 @@ export default function App() {
       <div>
         <Galeria />
       </div>
+      <Rodape />
     </>
   );
 }
